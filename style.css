@@ -1,10 +1,24 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-button:disabled {
-    background-color: gray;
-    color: rgb(67, 67, 67);
+
+button {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    border-radius: 18px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border: 0;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
 }
+
+button:disabled {
+    background-color: rgb(216, 216, 216);
+    color: rgb(67, 67, 67);
+
+}
+
 
 #container {
     display: grid;
@@ -12,12 +26,18 @@ button:disabled {
 }
 
 #statistics {
-    background-color: #e0e0e0;
     width: 16rem;
     padding: 0 1rem;
+    height: fit-content;
 }
 
 #statistics p {
     display: flex;
     justify-content: space-between;
+}
+
+.card {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    background-color: white;
 }

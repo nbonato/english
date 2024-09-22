@@ -1,11 +1,13 @@
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
 let newSentenceButton = document.querySelector('#new-sentence')
+let answerParagraph = document.querySelector('#answer')
 
 let rightAnswersCounter = document.querySelector('#right-answers')
 let wrongAnswersCounter = document.querySelector('#wrong-answers')
 let skippedExercisesCounter = document.querySelector('#skipped-exercises')
-
+let showAnswerButton = document.querySelector('#show-answer')
+let checkExerciseButton = document.querySelector('#check-answer')
 
 let totalSentences = 0
 // Variable to store the data
@@ -46,12 +48,15 @@ function getRandomExcercise(sentences) {
 }
 
 let wordSolution;
+let inputBox;
 
 newSentenceButton.addEventListener('click', () => {
   increaseCounter(skippedExercisesCounter);
 });
 
 function newSentence() {
+  showAnswerButton.style.visibility = 'hidden'
+  answerParagraph.style.visibility = 'hidden'
   let randomExercise = getRandomExcercise(sentences)
   let exerciseSentence = randomExercise['phrase']
   let inputBoxHTML = '<input id="input-box" type="text" placeholder="..." style="text-align: center">'
@@ -60,17 +65,28 @@ function newSentence() {
   // Find the word solution inside the text (between square brackets)
   let match = exerciseSentence.match(/\[(.*?)\]/);
   wordSolution = match ? match[1] : null; // Extract the first captured group or null if not found
-  
+
   sentenceParagraph.innerHTML = currentSentence
   definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${selectedLetter}`
   newSentenceButton.disabled = true
   totalSentences ++
+
+  inputBox = document.querySelector('#input-box')
+  // Add an event listener to the input box to monitor changes
+  inputBox.addEventListener('input', () => {
+    // Check if the input box is empty and set the button's disabled property accordingly
+    checkExerciseButton.disabled = inputBox.value.trim() === '';
+    console.log(inputBox.value.trim())
+  });
+  inputBox.focus()
 }
 
-
-function increaseCounter(counter) {
-  counter.textContent = parseInt(counter.textContent) + 1
+function showAnswer() {
+  answerParagraph.textContent = wordSolution
+  answerParagraph.style.visibility = "visible"
+  console.log(2)
 }
+
 
 function checkExercise() {
   let attempt = document.querySelector("#input-box").value
@@ -78,16 +94,21 @@ function checkExercise() {
     alert("Great!")
     newSentence()
     increaseCounter(rightAnswersCounter)
-    console.log("disable")
-
   } else {
     alert("Wrong, try again!")
     increaseCounter(wrongAnswersCounter)
     newSentenceButton.disabled = false
+    showAnswerButton.style.visibility = 'visible'
+    inputBox.value = ''
+    inputBox.focus()
   }
+  
 }
 
 
+function increaseCounter(counter) {
+  counter.textContent = parseInt(counter.textContent) + 1
+}
 
 
 

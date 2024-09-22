@@ -13,11 +13,13 @@
         <div>
             <p id="sentence-paragraph"></p>
             <p id="definition"></p>
+            <p id="answer" style="visibility: hidden">Pronto</p>
             <button id="new-sentence" onclick="newSentence()">Skip this sentence</button>
-            <button id="check" onclick="checkExercise()">Check</button>
+            <button id="check-answer" onclick="checkExercise()" disabled>Check your answer</button>
+            <button id="show-answer" onclick="showAnswer()">See the answer</button>
         </div>
-        
-        <div id="statistics">
+
+        <div class="card" id="statistics">
             <p>Right answers: <span id="right-answers">0</span></p>
             <p>Wrong answers: <span id="wrong-answers">0</span></p>
             <p>Skipped exercises: <span id="skipped-exercises">0</span></p>
