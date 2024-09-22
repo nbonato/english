@@ -1,0 +1,23 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:disabled {
+    background-color: red;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#statistics {
+    border-radius: 8px;
+    background-color: #c8c8c8;
+    width: fit-content;
+    padding: 0 1rem;
+}
+
+#statistics p {
+    display: flex;
+    justify-content: space-between;
+}
