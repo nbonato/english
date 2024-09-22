@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fill in the blanks</title>
+
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,12 +12,12 @@
     <h1>Fill in the blanks in these sentences</h1>
     <div id="container">
         <div>
-            <p id="sentence-paragraph"></p>
-            <p id="definition"></p>
-            <p id="answer" style="visibility: hidden">Pronto</p>
+            <p style="font-weight: bold;">Definition: <span style="font-weight: normal;" id="definition"></span></p>
+            <p id="sentence-paragraph"></p>            
             <button id="new-sentence" onclick="newSentence()">Skip this sentence</button>
             <button id="check-answer" onclick="checkExercise()" disabled>Check your answer</button>
             <button id="show-answer" onclick="showAnswer()">See the answer</button>
+            <p id="answer" style="font-weight: bold; visibility: hidden"></p>
         </div>
 
         <div class="card" id="statistics">

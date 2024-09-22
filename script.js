@@ -84,7 +84,6 @@ function newSentence() {
 function showAnswer() {
   answerParagraph.textContent = wordSolution
   answerParagraph.style.visibility = "visible"
-  console.log(2)
 }
 
 
