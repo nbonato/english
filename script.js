@@ -1,6 +1,6 @@
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
-
+let newSentenceButton = document.querySelector('#new-sentence')
 
 
 // Variable to store the data
@@ -16,6 +16,8 @@ fetch('phrases.json')
   })
   .then(data => {
     sentences = data; // Store the JSON data in the sentences variable
+    // Start with the first sentence
+    newSentence()
   })
   .catch(error => {
     console.error('Error fetching the JSON file:', error);
@@ -54,15 +56,21 @@ function newSentence() {
   definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${selectedLetter}`
 }
 
+let skippable = false
 
 function checkExercise() {
   let attempt = document.querySelector("#input-box").value
   if (attempt.trim().toLowerCase() === wordSolution.trim().toLowerCase()) {
     alert("Great!")
     newSentence()
+    newSentenceButton.disabled = true
   } else {
     alert("Wrong, try again!")
+    newSentenceButton.disabled = false
   }
 }
+
+
+
 
 
