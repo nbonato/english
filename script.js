@@ -2,7 +2,12 @@ let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
 let newSentenceButton = document.querySelector('#new-sentence')
 
+let rightAnswersCounter = document.querySelector('#right-answers')
+let wrongAnswersCounter = document.querySelector('#wrong-answers')
+let skippedExercisesCounter = document.querySelector('#skipped-exercises')
 
+
+let totalSentences = 0
 // Variable to store the data
 let sentences = [];
 
@@ -18,6 +23,7 @@ fetch('phrases.json')
     sentences = data; // Store the JSON data in the sentences variable
     // Start with the first sentence
     newSentence()
+    skippedExercisesCounter.textContent = 0
   })
   .catch(error => {
     console.error('Error fetching the JSON file:', error);
@@ -41,11 +47,14 @@ function getRandomExcercise(sentences) {
 
 let wordSolution;
 
+newSentenceButton.addEventListener('click', () => {
+  increaseCounter(skippedExercisesCounter);
+});
+
 function newSentence() {
   let randomExercise = getRandomExcercise(sentences)
   let exerciseSentence = randomExercise['phrase']
   let inputBoxHTML = '<input id="input-box" type="text" placeholder="..." style="text-align: center">'
-  
   // Replacing text inside square brackets with input box
   let currentSentence = exerciseSentence.replace(/\[.*?\]/, inputBoxHTML);
   // Find the word solution inside the text (between square brackets)
@@ -54,18 +63,26 @@ function newSentence() {
   
   sentenceParagraph.innerHTML = currentSentence
   definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${selectedLetter}`
+  newSentenceButton.disabled = true
+  totalSentences ++
 }
 
-let skippable = false
+
+function increaseCounter(counter) {
+  counter.textContent = parseInt(counter.textContent) + 1
+}
 
 function checkExercise() {
   let attempt = document.querySelector("#input-box").value
   if (attempt.trim().toLowerCase() === wordSolution.trim().toLowerCase()) {
     alert("Great!")
     newSentence()
-    newSentenceButton.disabled = true
+    increaseCounter(rightAnswersCounter)
+    console.log("disable")
+
   } else {
     alert("Wrong, try again!")
+    increaseCounter(wrongAnswersCounter)
     newSentenceButton.disabled = false
   }
 }

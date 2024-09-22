@@ -2,7 +2,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 button:disabled {
-    background-color: red;
+    background-color: gray;
+    color: rgb(67, 67, 67);
 }
 
 #container {
@@ -11,9 +12,8 @@ button:disabled {
 }
 
 #statistics {
-    border-radius: 8px;
-    background-color: #c8c8c8;
-    width: fit-content;
+    background-color: #e0e0e0;
+    width: 16rem;
     padding: 0 1rem;
 }
 
