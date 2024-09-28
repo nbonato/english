@@ -156,3 +156,4 @@ function updateAttempts(wordSolution, result) {
   localStorage.setItem('attempts', JSON.stringify(attempts)); 
 }
 
+
