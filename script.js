@@ -34,7 +34,7 @@ fetch('phrases.json')
 
 function getRandomLetter() {
   let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  alphabet = 'BCDE';
+  alphabet = 'ABCDEF';
   const randomIndex = Math.floor(Math.random() * alphabet.length); // Get a random index
   return alphabet[randomIndex]; // Return the letter at the random index
 }
@@ -69,14 +69,14 @@ function newSentence() {
   sentenceParagraph.innerHTML = currentSentence
   definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${selectedLetter}`
   newSentenceButton.disabled = true
-  totalSentences ++
+  totalSentences++
 
   inputBox = document.querySelector('#input-box')
   // Add an event listener to the input box to monitor changes
   inputBox.addEventListener('input', () => {
     // Check if the input box is empty and set the button's disabled property accordingly
     checkExerciseButton.disabled = inputBox.value.trim() === '';
-    console.log(inputBox.value.trim())
+    
   });
   inputBox.focus()
 }
@@ -86,10 +86,29 @@ function showAnswer() {
   answerParagraph.style.visibility = "visible"
 }
 
+// Check if attempts exists in localStorage
+let attempts = localStorage.getItem('attempts');
+
+// If it doesn't exist, initialise it as an empty object
+if (attempts === null) {
+  attempts = {};
+} else {
+  // If it exists, parse it (assuming it's a JSON object)
+  attempts = JSON.parse(attempts);
+}
+
+
+
 
 function checkExercise() {
-  let attempt = document.querySelector("#input-box").value
-  if (attempt.trim().toLowerCase() === wordSolution.trim().toLowerCase()) {
+  let userAnswer = document.querySelector("#input-box").value
+  wordSolution = wordSolution.trim().toLowerCase()
+
+
+  let result = userAnswer.trim().toLowerCase() === wordSolution
+  updateAttempts(wordSolution, result)
+
+  if (result) {
     alert("Great!")
     newSentence()
     increaseCounter(rightAnswersCounter)
@@ -100,8 +119,7 @@ function checkExercise() {
     showAnswerButton.style.visibility = 'visible'
     inputBox.value = ''
     inputBox.focus()
-  }
-  
+  }  
 }
 
 
@@ -110,4 +128,31 @@ function increaseCounter(counter) {
 }
 
 
+
+/**
+ * Updates the localStorage with the last time an 
+ * exercise was attempted, indicating 
+ * if successful or not.
+ *
+ * @param {string} wordSolution - The solution to the exercise.
+ * @param {boolean} result - Indicates whether the exercise was successful or not.
+ * @returns {Object} The updated object for the current attempt
+ *                   indicating the date and result of it.
+ */
+function updateAttempts(wordSolution, result) {
+  // Get the current dateTime
+  let dateTime = new Date().toISOString(); // Example value
+  // Check if there's already a record for the current 
+  // exercise in the attempts object
+  if (wordSolution in attempts) {
+    // If it exists, push the new dateTime and result to the existing object
+    attempts[wordSolution].push({ date: dateTime, success: result });
+  } else {
+    // If it doesn't exist, create a new object
+    attempts[wordSolution] = [{ date: dateTime, success: result }];
+  }
+
+  // Update the 'attempts' object in localStorage.
+  localStorage.setItem('attempts', JSON.stringify(attempts)); 
+}
 
