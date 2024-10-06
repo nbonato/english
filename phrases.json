@@ -1,4 +1,476 @@
 {
+    "A": [
+        {
+            "word": "a",
+            "phrase": "I saw [a] cat in the garden.",
+            "description": {
+                "part_of_speech": "article",
+                "definition": "Used before a noun to denote one item or instance of something.",
+                "simplified": "One of something.",
+                "example": "She wants to buy a new car."
+            }
+        },
+        {
+            "word": "about",
+            "phrase": "Tell me [about] your day.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "On the subject of; concerning.",
+                "simplified": "Regarding something.",
+                "example": "He asked about my weekend plans."
+            }
+        },
+        {
+            "word": "above",
+            "phrase": "The plane flew [above] the clouds.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "At a higher level or layer than.",
+                "simplified": "Higher than something.",
+                "example": "There is a ceiling fan above the table."
+            }
+        },
+        {
+            "word": "across",
+            "phrase": "We walked [across] the street.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "From one side to the other of something.",
+                "simplified": "Going from one side to another.",
+                "example": "They built a bridge across the river."
+            }
+        },
+        {
+            "word": "act",
+            "phrase": "He will [act] in the school play.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To perform a role or function.",
+                "simplified": "To perform or do something.",
+                "example": "She acts responsibly in difficult situations."
+            }
+        },
+        {
+            "word": "active",
+            "phrase": "He is an [active] member of the club.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Engaging in energetic or physical movement.",
+                "simplified": "Busy; energetic.",
+                "example": "He leads an active lifestyle by jogging every morning."
+            }
+        },
+        {
+            "word": "activity",
+            "phrase": "What [activity] will we do today?",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A thing that a person or group does or has done.",
+                "simplified": "Something to do.",
+                "example": "Reading is her favorite activity."
+            }
+        },
+        {
+            "word": "add",
+            "phrase": "Please [add] more sugar to the tea.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To join or combine something with another.",
+                "simplified": "To put something extra.",
+                "example": "Can you add my name to the list?"
+            }
+        },
+        {
+            "word": "afraid",
+            "phrase": "She’s [afraid] of heights.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Feeling fear or anxiety.",
+                "simplified": "Scared.",
+                "example": "He’s afraid of the dark."
+            }
+        },
+        {
+            "word": "after",
+            "phrase": "Let’s meet [after] lunch.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "In the time following an event or period.",
+                "simplified": "Following something.",
+                "example": "We can go to the park after school."
+            }
+        },
+        {
+            "word": "again",
+            "phrase": "Can you say that [again]?",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "Another time; once more.",
+                "simplified": "One more time.",
+                "example": "She asked me to call her again tomorrow."
+            }
+        },
+        {
+            "word": "age",
+            "phrase": "What is your [age]?",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The length of time that a person or thing has existed.",
+                "simplified": "How long someone has lived.",
+                "example": "Her age is 25 years old."
+            }
+        },
+        {
+            "word": "ago",
+            "phrase": "This happened five years [ago].",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "Before the present; earlier.",
+                "simplified": "In the past.",
+                "example": "She moved here a long time ago."
+            }
+        },
+        {
+            "word": "agree",
+            "phrase": "I [agree] with your idea.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To have the same opinion or belief as another.",
+                "simplified": "To think the same way.",
+                "example": "They agree on the terms of the contract."
+            }
+        },
+        {
+            "word": "air",
+            "phrase": "We need fresh [air].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The invisible gaseous substance surrounding the earth, a mixture of oxygen and nitrogen.",
+                "simplified": "What we breathe.",
+                "example": "The air is cool and crisp in the mountains."
+            }
+        },
+        {
+            "word": "all",
+            "phrase": "[All] the students finished their homework.",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "The whole quantity or extent of something.",
+                "simplified": "Everything; everyone.",
+                "example": "All of my friends are going to the party."
+            }
+        },
+        {
+            "word": "alone",
+            "phrase": "He felt [alone] in the big house.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having no one else present; on one's own.",
+                "simplified": "By yourself.",
+                "example": "She prefers to be alone when she reads."
+            }
+        },
+        {
+            "word": "along",
+            "phrase": "They walked [along] the beach.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "Moving in a constant direction on a line, path, or course.",
+                "simplified": "Beside or next to something.",
+                "example": "We drove along the coast."
+            }
+        },
+        {
+            "word": "already",
+            "phrase": "He has [already] finished his homework.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "Before the time in question; by now or before now.",
+                "simplified": "Happened earlier.",
+                "example": "She already knew the answer."
+            }
+        },
+        {
+            "word": "always",
+            "phrase": "She [always] brings her lunch to work.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "At all times; on every occasion.",
+                "simplified": "Every time.",
+                "example": "He always forgets his keys."
+            }
+        },
+        {
+            "word": "am",
+            "phrase": "I [am] ready for the meeting.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "The first-person singular present tense of the verb 'to be'.",
+                "simplified": "I exist; I am something.",
+                "example": "I am happy with the results."
+            }
+        },
+        {
+            "word": "amount",
+            "phrase": "What [amount] of sugar do we need?",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A quantity of something, especially the total of a thing or things in number, size, or value.",
+                "simplified": "How much of something.",
+                "example": "The amount of water in the bottle is two liters."
+            }
+        },
+        {
+            "word": "an",
+            "phrase": "She ate [an] apple for breakfast.",
+            "description": {
+                "part_of_speech": "article",
+                "definition": "Used before words beginning with a vowel sound, indicating a single item or example.",
+                "simplified": "One of something, used before a vowel sound.",
+                "example": "He saw an eagle flying above."
+            }
+        },
+        {
+            "word": "and",
+            "phrase": "She bought apples [and] bananas.",
+            "description": {
+                "part_of_speech": "conjunction",
+                "definition": "Used to connect words, phrases, or clauses representing items in a list or series.",
+                "simplified": "Used to add things together.",
+                "example": "We are going to the park and the library."
+            }
+        },
+        {
+            "word": "angry",
+            "phrase": "He was [angry] after missing the bus.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Feeling or showing strong annoyance or hostility.",
+                "simplified": "Mad; upset.",
+                "example": "She was angry when she heard the news."
+            }
+        },
+        {
+            "word": "another",
+            "phrase": "She asked for [another] cup of coffee.",
+            "description": {
+                "part_of_speech": "determiner",
+                "definition": "An additional one of the same kind; one more.",
+                "simplified": "One more.",
+                "example": "Would you like another slice of cake?"
+            }
+        },
+        {
+            "word": "answer",
+            "phrase": "Please [answer] the question.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To respond to a question or statement.",
+                "simplified": "To reply.",
+                "example": "He didn't know how to answer the riddle."
+            }
+        },
+        {
+            "word": "any",
+            "phrase": "Do you have [any] questions?",
+            "description": {
+                "part_of_speech": "determiner",
+                "definition": "Used to refer to one or some of a thing, no matter how much or many.",
+                "simplified": "One or some, no specific amount.",
+                "example": "You can take any of the books."
+            }
+        },
+        {
+            "word": "anyone",
+            "phrase": "Has [anyone] seen my keys?",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "Any person at all, no matter who.",
+                "simplified": "Any person.",
+                "example": "Anyone can join the club."
+            }
+        },
+        {
+            "word": "anything",
+            "phrase": "Is there [anything] you need?",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "Used to refer to a thing, no matter what.",
+                "simplified": "Any thing.",
+                "example": "You can ask me anything."
+            }
+        },
+        {
+            "word": "anytime",
+            "phrase": "You can visit [anytime] you want.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "At whatever time; whenever.",
+                "simplified": "Whenever.",
+                "example": "Feel free to call anytime."
+            }
+        },
+        {
+            "word": "appear",
+            "phrase": "He suddenly [appeared] in the doorway.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To come into sight; become visible.",
+                "simplified": "To come into view.",
+                "example": "A rainbow appeared after the rain."
+            }
+        },
+        {
+            "word": "apple",
+            "phrase": "She ate an [apple] for breakfast.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A round fruit with red, green, or yellow skin and a crisp, sweet flesh.",
+                "simplified": "A type of fruit.",
+                "example": "He picked an apple from the tree."
+            }
+        },
+        {
+            "word": "are",
+            "phrase": "You [are] my best friend.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "The present tense plural and second person singular form of 'to be'.",
+                "simplified": "Present tense of 'be'.",
+                "example": "They are going to the park."
+            }
+        },
+        {
+            "word": "area",
+            "phrase": "This [area] is perfect for a picnic.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A region or part of a space, often defined by boundaries.",
+                "simplified": "A place or part of a space.",
+                "example": "The parking area is full."
+            }
+        },
+        {
+            "word": "arm",
+            "phrase": "She hurt her [arm] while playing.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "Each of the two upper limbs of the human body, extending from the shoulder to the hand.",
+                "simplified": "A body part used for holding things.",
+                "example": "He broke his arm during the game."
+            }
+        },
+        {
+            "word": "army",
+            "phrase": "The [army] marched through the city.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An organized military force equipped for fighting on land.",
+                "simplified": "A group of soldiers.",
+                "example": "The army was deployed to assist in the emergency."
+            }
+        },
+        {
+            "word": "around",
+            "phrase": "She looked [around] the room.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "On every side of something.",
+                "simplified": "In all directions near something.",
+                "example": "He ran around the park."
+            }
+        },
+        {
+            "word": "arrive",
+            "phrase": "They will [arrive] at noon.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To reach a destination.",
+                "simplified": "To get to a place.",
+                "example": "We should arrive at the airport early."
+            }
+        },
+        {
+            "word": "art",
+            "phrase": "She studies [art] at the university.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The expression or application of human creative skill and imagination, typically in a visual form.",
+                "simplified": "Creative work like painting or drawing.",
+                "example": "His art is displayed in the museum."
+            }
+        },
+        {
+            "word": "as",
+            "phrase": "She works [as] a teacher.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "Used to indicate the function or role of someone or something.",
+                "simplified": "In the role of.",
+                "example": "He is known as a great leader."
+            }
+        },
+        {
+            "word": "ask",
+            "phrase": "I want to [ask] you a question.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To say something in order to obtain an answer or information.",
+                "simplified": "To inquire or request.",
+                "example": "She asked if I could help her move."
+            }
+        },
+        {
+            "word": "at",
+            "phrase": "We’ll meet [at] the park.",
+            "description": {
+                "part_of_speech": "preposition",
+                "definition": "Expressing the location or position of something.",
+                "simplified": "In a specific place.",
+                "example": "She is waiting at the bus stop."
+            }
+        },
+        {
+            "word": "attack",
+            "phrase": "The army planned to [attack] at dawn.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To take aggressive action against a person or place.",
+                "simplified": "To fight against someone or something.",
+                "example": "The lion will attack its prey."
+            }
+        },
+        {
+            "word": "aunt",
+            "phrase": "Her [aunt] visited last weekend.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The sister of one's father or mother or the wife of one's uncle.",
+                "simplified": "Your parent’s sister.",
+                "example": "My aunt is coming to the family reunion."
+            }
+        },
+        {
+            "word": "autumn",
+            "phrase": "The leaves change color in [autumn].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The season after summer and before winter, characterized by cooler weather and falling leaves.",
+                "simplified": "The season between summer and winter.",
+                "example": "Autumn is her favorite time of year."
+            }
+        },
+        {
+            "word": "away",
+            "phrase": "He moved [away] last year.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "To or at a distance from a particular place, person, or thing.",
+                "simplified": "Not here; in a different place.",
+                "example": "The ship sailed away from the shore."
+            }
+        }
+    ],
     "B": [
         {
             "word": "baby",
@@ -2294,6 +2766,268 @@
                 "definition": "The organ that enables sight.",
                 "simplified": "The part of the body that sees.",
                 "example": "Close your eyes and rest."
+            }
+        }
+    ],
+    "F": [
+        {
+            "word": "face",
+            "phrase": "She smiled when she saw his [face].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The front part of a person's head, from the forehead to the chin.",
+                "simplified": "The front part of the head.",
+                "example": "Her face lit up when she got the news."
+            }
+        },
+        {
+            "word": "fact",
+            "phrase": "It's a [fact] that the Earth revolves around the Sun.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A thing that is known or proved to be true.",
+                "simplified": "Something true.",
+                "example": "The fact is, she was right."
+            }
+        },
+        {
+            "word": "fail",
+            "phrase": "He didn't want to [fail] the test.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To be unsuccessful in achieving one's goal.",
+                "simplified": "To not succeed.",
+                "example": "She failed to complete the project on time."
+            }
+        },
+        {
+            "word": "fall",
+            "phrase": "The leaves begin to [fall] in autumn.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To move downward, typically rapidly and freely without control.",
+                "simplified": "To drop downward.",
+                "example": "He slipped and fell on the ice."
+            }
+        },
+        {
+            "word": "false",
+            "phrase": "The statement was [false].",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Not according with truth or fact; incorrect.",
+                "simplified": "Not true.",
+                "example": "The rumor turned out to be false."
+            }
+        },
+        {
+            "word": "family",
+            "phrase": "I spent the weekend with my [family].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A group consisting of parents and children living together in a household.",
+                "simplified": "People related by blood or marriage.",
+                "example": "Family gatherings are a tradition."
+            }
+        },
+        {
+            "word": "famous",
+            "phrase": "She is [famous] for her artwork.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Known about by many people.",
+                "simplified": "Well known.",
+                "example": "The famous actor visited our town."
+            }
+        },
+        {
+            "word": "far",
+            "phrase": "He lives [far] from the city.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "At, to, or by a great distance.",
+                "simplified": "A long way away.",
+                "example": "The mountains are far from here."
+            }
+        },
+        {
+            "word": "farm",
+            "phrase": "They own a large [farm] in the countryside.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An area of land and its buildings used for growing crops and raising animals.",
+                "simplified": "Land for growing crops or raising animals.",
+                "example": "The farm produces vegetables and dairy products."
+            }
+        },
+        {
+            "word": "father",
+            "phrase": "Her [father] taught her how to ride a bike.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A male parent.",
+                "simplified": "A male parent.",
+                "example": "Her father works at the hospital."
+            }
+        },
+        {
+            "word": "fast",
+            "phrase": "The car is moving [fast].",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "At high speed.",
+                "simplified": "Quickly.",
+                "example": "He runs very fast."
+            }
+        },
+        {
+            "word": "fat",
+            "phrase": "The cat is [fat] because it eats a lot.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having a large amount of excess flesh.",
+                "simplified": "Overweight.",
+                "example": "The fat dog sat lazily in the yard."
+            }
+        },
+        {
+            "word": "fault",
+            "phrase": "It was not her [fault] that the vase broke.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "Responsibility for an accident or misfortune.",
+                "simplified": "Blame for a mistake.",
+                "example": "It’s my fault that we missed the bus."
+            }
+        },
+        {
+            "word": "fear",
+            "phrase": "He has a [fear] of spiders.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An unpleasant emotion caused by the threat of danger, pain, or harm.",
+                "simplified": "Being scared of something.",
+                "example": "She was paralyzed by fear during the storm."
+            }
+        },
+        {
+            "word": "feed",
+            "phrase": "She needs to [feed] the dog.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To give food to someone or something.",
+                "simplified": "To give food.",
+                "example": "The farmer feeds the animals every morning."
+            }
+        },
+        {
+            "word": "feel",
+            "phrase": "I [feel] happy today.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To experience an emotion or sensation.",
+                "simplified": "To sense or experience something emotionally or physically.",
+                "example": "He feels cold in the winter."
+            }
+        },
+        {
+            "word": "female",
+            "phrase": "The [female] lion hunts for food.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Of or denoting the sex that can bear offspring or produce eggs.",
+                "simplified": "Relating to women or girls.",
+                "example": "The female athlete won the race."
+            }
+        },
+        {
+            "word": "fever",
+            "phrase": "She has a high [fever] and should see a doctor.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An abnormally high body temperature, usually as a result of illness.",
+                "simplified": "High body temperature due to illness.",
+                "example": "The child’s fever lasted for three days."
+            }
+        },
+        {
+            "word": "few",
+            "phrase": "Only a [few] people came to the meeting.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "A small number of.",
+                "simplified": "Not many.",
+                "example": "There are only a few apples left."
+            }
+        },
+        {
+            "word": "fight",
+            "phrase": "The two boys started to [fight] over the toy.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To take part in a violent struggle involving physical force.",
+                "simplified": "To physically or verbally argue.",
+                "example": "They fight for their rights."
+            }
+        },
+        {
+            "word": "fill",
+            "phrase": "Please [fill] the glass with water.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To make something full.",
+                "simplified": "To put something into a container until it is full.",
+                "example": "He filled the bucket with sand."
+            }
+        },
+        {
+            "word": "film",
+            "phrase": "We watched a [film] last night.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A movie or motion picture.",
+                "simplified": "A movie.",
+                "example": "The film was about a superhero."
+            }
+        },
+        {
+            "word": "find",
+            "phrase": "I need to [find] my keys.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To discover or locate something.",
+                "simplified": "To search for and locate something.",
+                "example": "She found her lost ring under the bed."
+            }
+        },
+        {
+            "word": "fine",
+            "phrase": "I feel [fine], thank you.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Of high quality or satisfactory.",
+                "simplified": "Good or acceptable.",
+                "example": "Everything is going to be fine."
+            }
+        },
+        {
+            "word": "finger",
+            "phrase": "She hurt her [finger] while cooking.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "Each of the five digits at the end of a person's hand.",
+                "simplified": "A part of the hand used for touching and holding.",
+                "example": "He pointed with his index finger."
+            }
+        },
+        {
+            "word": "finish",
+            "phrase": "I need to [finish] my homework.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To bring something to an end.",
+                "simplified": "To complete something.",
+                "example": "He finished the race in first place."
             }
         }
     ]
