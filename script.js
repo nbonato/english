@@ -154,10 +154,6 @@ function checkExercise() {
     
     inputBox.focus()
   }
-  // Disable after each attempt, since the inputBox will be cleared
-  checkExerciseButton.disabled = true
-  
-}
 
   updateStatisticsDisplay(statistics)
 
