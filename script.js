@@ -151,8 +151,13 @@ function checkExercise() {
     newSentenceButton.disabled = false
     showAnswerButton.style.visibility = 'visible'
     inputBox.value = ''
+    
     inputBox.focus()
   }
+  // Disable after each attempt, since the inputBox will be cleared
+  checkExerciseButton.disabled = true
+  
+}
 
   updateStatisticsDisplay(statistics)
 
