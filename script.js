@@ -167,9 +167,6 @@ function checkExercise() {
 
 
 
-
-
-
 /**
  * Updates the localStorage with the last time an 
  * exercise was attempted, indicating 

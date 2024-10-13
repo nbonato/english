@@ -19,6 +19,19 @@ button:disabled {
     cursor: not-allowed;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: min(80%, 300px);
+}
+
+
+.blurred-solution {
+    filter: blur(5px);
+    font-weight: bold;
+}
+
 
 #container {
     display: grid;

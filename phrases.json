@@ -356,7 +356,7 @@
             "description": {
                 "part_of_speech": "noun",
                 "definition": "Each of the two upper limbs of the human body, extending from the shoulder to the hand.",
-                "simplified": "A body part used for holding things.",
+                "simplified": "The limbs ending in hands.",
                 "example": "He broke his arm during the game."
             }
         },
@@ -1700,7 +1700,7 @@
             "description": {
                 "part_of_speech": "adjective",
                 "definition": "Providing physical ease and relaxation; free from stress or discomfort.",
-                "simplified": "Cozy; easy to sit in.",
+                "simplified": "Cosy; easy to sit in.",
                 "example": "The bed was so comfortable that I fell asleep quickly."
             }
         },
@@ -3028,6 +3028,1108 @@
                 "definition": "To bring something to an end.",
                 "simplified": "To complete something.",
                 "example": "He finished the race in first place."
+            }
+        }
+    ],
+    "S": [
+        {
+            "word": "sad",
+            "phrase": "She felt [sad] when her cat ran away.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Feeling or showing sorrow; unhappy.",
+                "simplified": "Feeling unhappy or down.",
+                "example": "He was sad after hearing the bad news."
+            }
+        },
+        {
+            "word": "safe",
+            "phrase": "Make sure to keep your money [safe].",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Protected from or not exposed to danger or risk.",
+                "simplified": "Free from harm or danger.",
+                "example": "The children were safe at home."
+            }
+        },
+        {
+            "word": "sail",
+            "phrase": "They decided to [sail] across the ocean.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To travel on water in a ship or boat using sails.",
+                "simplified": "To travel on a boat powered by the wind.",
+                "example": "They sailed the boat to a nearby island."
+            }
+        },
+        {
+            "word": "salt",
+            "phrase": "Please pass the [salt] for the fries.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A white crystalline substance used to season or preserve food.",
+                "simplified": "A substance used to add flavor to food.",
+                "example": "She added salt to the soup."
+            }
+        },
+        {
+            "word": "same",
+            "phrase": "They wore the [same] dress to the party.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Identical; not different.",
+                "simplified": "Exactly alike; no difference.",
+                "example": "We have the same shoes."
+            }
+        },
+        {
+            "word": "sand",
+            "phrase": "The beach was covered in soft [sand].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A loose granular substance found on beaches, deserts, and riverbeds, made of small particles of rock and minerals.",
+                "simplified": "Tiny grains of rock, usually found on beaches.",
+                "example": "The children played in the sand by the shore."
+            }
+        },
+        {
+            "word": "save",
+            "phrase": "She decided to [save] some money for a vacation.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To keep something for future use; to avoid waste or loss.",
+                "simplified": "To keep something to use later.",
+                "example": "He saved some money for his new car."
+            }
+        },
+        {
+            "word": "say",
+            "phrase": "What did she [say] to you?",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To speak words aloud.",
+                "simplified": "To express something with words.",
+                "example": "He said he would be home soon."
+            }
+        },
+        {
+            "word": "school",
+            "phrase": "The children go to [school] every weekday.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An institution where children and young people are educated.",
+                "simplified": "A place where people go to learn.",
+                "example": "She attends a public school."
+            }
+        },
+        {
+            "word": "science",
+            "phrase": "He loves studying [science] in college.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The systematic study of the structure and behavior of the physical and natural world through observation and experiment.",
+                "simplified": "The study of the natural world through experiments.",
+                "example": "She enjoys science because she likes learning about nature."
+            }
+        },
+        {
+            "word": "scissors",
+            "phrase": "She used [scissors] to cut the paper.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A tool used for cutting materials like paper, cloth, or hair, typically consisting of two blades.",
+                "simplified": "A tool used for cutting, with two sharp blades.",
+                "example": "The teacher handed out scissors for the art project."
+            }
+        },
+        {
+            "word": "search",
+            "phrase": "They began to [search] for the missing keys.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To try to find something by looking or otherwise seeking carefully and thoroughly.",
+                "simplified": "To look for something you can't find.",
+                "example": "He searched the house for his lost wallet."
+            }
+        },
+        {
+            "word": "seat",
+            "phrase": "Please take a [seat].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A thing made or used for sitting on, such as a chair or bench.",
+                "simplified": "Something you sit on, like a chair.",
+                "example": "The airplane had comfortable seats."
+            }
+        },
+        {
+            "word": "second",
+            "phrase": "She finished in [second] place in the race.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Coming after the first in time or order; ranking.",
+                "simplified": "Next in line after the first.",
+                "example": "He won a silver medal for second place."
+            }
+        },
+        {
+            "word": "see",
+            "phrase": "Can you [see] the mountains from here?",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To perceive with the eyes; to look at or notice something.",
+                "simplified": "To look at something with your eyes.",
+                "example": "She can see the stars at night."
+            }
+        },
+        {
+            "word": "seem",
+            "phrase": "It doesn't [seem] like a good idea.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To give the impression of being or doing something.",
+                "simplified": "To appear or look like something is a certain way.",
+                "example": "He seems tired today."
+            }
+        },
+        {
+            "word": "sell",
+            "phrase": "They decided to [sell] their car.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To give or hand over something in exchange for money.",
+                "simplified": "To exchange something for money.",
+                "example": "She sold her old phone online."
+            }
+        },
+        {
+            "word": "send",
+            "phrase": "I will [send] you the documents tomorrow.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To cause something to go or be taken to a particular destination.",
+                "simplified": "To make something go somewhere.",
+                "example": "She sent the letter by mail."
+            }
+        },
+        {
+            "word": "sentence",
+            "phrase": "Can you form a [sentence] using this word?",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A set of words that is complete in itself, typically containing a subject and predicate.",
+                "simplified": "A group of words that forms a complete thought.",
+                "example": "Write a sentence for your homework."
+            }
+        },
+        {
+            "word": "serve",
+            "phrase": "The waiter will [serve] the food shortly.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To present food or drink to someone.",
+                "simplified": "To give food or help to someone.",
+                "example": "She served dinner to the guests."
+            }
+        },
+        {
+            "word": "seven",
+            "phrase": "She has [seven] cats at home.",
+            "description": {
+                "part_of_speech": "numeral",
+                "definition": "The number equivalent to the sum of three and four; one more than six.",
+                "simplified": "The number 7.",
+                "example": "There are seven days in a week."
+            }
+        },
+        {
+            "word": "several",
+            "phrase": "She invited [several] friends to the party.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "More than two but not many.",
+                "simplified": "More than a few, but not many.",
+                "example": "They had several options to choose from."
+            }
+        },
+        {
+            "word": "sex",
+            "phrase": "The study examined the difference between male and female [sex].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The state of being male or female.",
+                "simplified": "Being male or female, biologically.",
+                "example": "The doctor asked for his sex on the form."
+            }
+        },
+        {
+            "word": "shade",
+            "phrase": "They sat under the [shade] of the tree.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A shadow or area sheltered from sunlight.",
+                "simplified": "A place out of direct sunlight.",
+                "example": "We found some shade under the umbrella."
+            }
+        },
+        {
+            "word": "shadow",
+            "phrase": "The tree cast a long [shadow] on the ground.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A dark area or shape produced by a body coming between rays of light and a surface.",
+                "simplified": "A dark shape made when something blocks the light.",
+                "example": "He saw his own shadow as he walked."
+            }
+        },
+        {
+            "word": "shake",
+            "phrase": "Please [shake] the bottle before using it.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To move an object or your body up and down or from side to side with quick, short movements.",
+                "simplified": "To move something quickly back and forth.",
+                "example": "He shook the soda can."
+            }
+        },
+        {
+            "word": "shape",
+            "phrase": "The toy has a square [shape].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The external form or appearance of something.",
+                "simplified": "The form or outline of something.",
+                "example": "He noticed the shape of the moon."
+            }
+        },
+        {
+            "word": "share",
+            "phrase": "They [share] their food with each other.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To have a portion of something with others.",
+                "simplified": "To give a part of what you have to others.",
+                "example": "She shared her snacks with her friends."
+            }
+        },
+        {
+            "word": "sharp",
+            "phrase": "Be careful, the knife is very [sharp].",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having an edge or point that is able to cut or pierce something.",
+                "simplified": "Having a very thin edge that can cut.",
+                "example": "The scissors are sharp enough to cut paper."
+            }
+        },
+        {
+            "word": "she",
+            "phrase": "[She] is going to the market today.",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "Used to refer to a female person or animal.",
+                "simplified": "A word for a girl or woman.",
+                "example": "She is my best friend."
+            }
+        },
+        {
+            "word": "sheep",
+            "phrase": "The farmer owns a flock of [sheep].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A domesticated animal with a thick woolly coat, kept for its wool or meat.",
+                "simplified": "A farm animal that has wool.",
+                "example": "The sheep grazed in the field."
+            }
+        },
+        {
+            "word": "sheet",
+            "phrase": "She pulled the [sheet] over her bed.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A large rectangular piece of fabric used to cover a bed.",
+                "simplified": "A large piece of cloth for a bed.",
+                "example": "I put clean sheets on the bed."
+            }
+        },
+        {
+            "word": "shelf",
+            "phrase": "He placed the books on the top [shelf].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A flat, horizontal surface used for storing or displaying objects.",
+                "simplified": "A flat surface on a wall or furniture for holding things.",
+                "example": "The shelf is full of books."
+            }
+        },
+        {
+            "word": "shine",
+            "phrase": "The sun began to [shine] brightly in the sky.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To emit or reflect light.",
+                "simplified": "To give off or reflect light.",
+                "example": "The flashlight shines in the dark."
+            }
+        },
+        {
+            "word": "ship",
+            "phrase": "The [ship] sailed across the ocean.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A large boat used for traveling across the sea.",
+                "simplified": "A big boat that travels on the sea.",
+                "example": "The ship reached the shore after a long journey."
+            }
+        },
+        {
+            "word": "shirt",
+            "phrase": "He wore a white [shirt] to the meeting.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A garment for the upper body, typically with a collar and sleeves.",
+                "simplified": "A piece of clothing worn on the top part of the body.",
+                "example": "I need to iron my shirt before work."
+            }
+        },
+        {
+            "word": "shoe",
+            "phrase": "He put on his favorite [shoe] before leaving.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A covering for the foot, typically made of leather or rubber.",
+                "simplified": "A piece of clothing worn on the feet.",
+                "example": "He wore brown shoes to the event."
+            }
+        },
+        {
+            "word": "shoot",
+            "phrase": "He aimed the ball and [shot] it into the goal.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To fire a projectile or direct a ball toward a target.",
+                "simplified": "To send something flying towards a target.",
+                "example": "He shoots the basketball toward the hoop."
+            }
+        },
+        {
+            "word": "shop",
+            "phrase": "They went to the [shop] to buy groceries.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A place where goods or services are sold.",
+                "simplified": "A place where you buy things.",
+                "example": "The shop was filled with fresh fruits and vegetables."
+            }
+        },
+        {
+            "word": "short",
+            "phrase": "He wore [short] pants during summer.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Measuring a small distance from one end to the other.",
+                "simplified": "Not long in length or time.",
+                "example": "The movie was shorter than I expected."
+            }
+        },
+        {
+            "word": "should",
+            "phrase": "You [should] always be polite to others.",
+            "description": {
+                "part_of_speech": "modal verb",
+                "definition": "Used to indicate obligation, duty, or correctness.",
+                "simplified": "Used to say what is the right or expected thing to do.",
+                "example": "She should call her friend tomorrow."
+            }
+        },
+        {
+            "word": "shoulder",
+            "phrase": "He injured his [shoulder] during the game.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The part of the body between the neck and the upper arm.",
+                "simplified": "The part of the body that connects the arm to the body.",
+                "example": "She felt pain in her shoulder after lifting the box."
+            }
+        },
+        {
+            "word": "shout",
+            "phrase": "He had to [shout] to be heard over the noise.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To speak or cry out loudly and forcefully.",
+                "simplified": "To speak very loudly.",
+                "example": "She shouted to get her friend's attention."
+            }
+        },
+        {
+            "word": "show",
+            "phrase": "He will [show] us the way to the station.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To cause or allow something to be seen.",
+                "simplified": "To let someone see something.",
+                "example": "He showed her how to solve the math problem."
+            }
+        },
+        {
+            "word": "sick",
+            "phrase": "She felt [sick] after eating too much candy.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Affected by physical or mental illness.",
+                "simplified": "Not feeling well or healthy.",
+                "example": "He was too sick to go to school."
+            }
+        },
+        {
+            "word": "side",
+            "phrase": "He stood by the [side] of the road.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A position to the left or right of an object, place, or central point.",
+                "simplified": "The edge or area next to something.",
+                "example": "They placed the table to the side of the room."
+            }
+        },
+        {
+            "word": "so",
+            "phrase": "It was raining, [so] we stayed inside.",
+            "description": {
+                "part_of_speech": "conjunction",
+                "definition": "Used to indicate the effect or result of something.",
+                "simplified": "Used to show a result of something.",
+                "example": "He was tired, so he went to bed early."
+            }
+        },
+        {
+            "word": "soap",
+            "phrase": "Please wash your hands with [soap].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A substance used for washing and cleaning, usually made from fats and oils.",
+                "simplified": "A substance used to clean things, especially your body.",
+                "example": "He used soap to clean the dishes."
+            }
+        },
+        {
+            "word": "sock",
+            "phrase": "He put on a clean [sock] before wearing his shoes.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A piece of clothing worn on the foot inside a shoe.",
+                "simplified": "A cloth item worn on your foot inside a shoe.",
+                "example": "She bought a new pair of socks."
+            }
+        },
+        {
+            "word": "soft",
+            "phrase": "The pillow was very [soft] and comfortable.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Easy to press, bend, or shape; not hard or firm.",
+                "simplified": "Not hard and easy to touch.",
+                "example": "The baby’s skin feels soft."
+            }
+        },
+        {
+            "word": "some",
+            "phrase": "She ate [some] of the cake.",
+            "description": {
+                "part_of_speech": "determiner",
+                "definition": "An unspecified amount or number of something.",
+                "simplified": "A small or certain amount of something.",
+                "example": "I need some help with my homework."
+            }
+        },
+        {
+            "word": "someone",
+            "phrase": "[Someone] left their umbrella in the hall.",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "An unknown or unspecified person.",
+                "simplified": "A person you do not know or name.",
+                "example": "Someone knocked on the door."
+            }
+        },
+        {
+            "word": "something",
+            "phrase": "[Something] smells good in the kitchen.",
+            "description": {
+                "part_of_speech": "pronoun",
+                "definition": "An object, event, or situation that is not exactly known or specified.",
+                "simplified": "A thing that you don't exactly know.",
+                "example": "I think I left something in the car."
+            }
+        },
+        {
+            "word": "sometimes",
+            "phrase": "[Sometimes] we go to the park on weekends.",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "Occasionally, rather than all the time.",
+                "simplified": "At certain times, but not always.",
+                "example": "He sometimes skips breakfast."
+            }
+        },
+        {
+            "word": "son",
+            "phrase": "Their [son] is studying at the university.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A male child in relation to his parents.",
+                "simplified": "A boy or man in relation to his parents.",
+                "example": "They are proud of their son’s achievements."
+            }
+        },
+        {
+            "word": "soon",
+            "phrase": "We will be leaving [soon].",
+            "description": {
+                "part_of_speech": "adverb",
+                "definition": "In a short time, or before long.",
+                "simplified": "In a little while; not long from now.",
+                "example": "She will arrive soon."
+            }
+        },
+        {
+            "word": "sorry",
+            "phrase": "I am [sorry] for being late.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Feeling regret, sadness, or remorse for something.",
+                "simplified": "Feeling bad about something you did.",
+                "example": "He was sorry for hurting her feelings."
+            }
+        },
+        {
+            "word": "sound",
+            "phrase": "The [sound] of the rain was soothing.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "Vibrations that travel through the air and can be heard when they reach the ear.",
+                "simplified": "What you hear.",
+                "example": "The sound of birds singing woke me up."
+            }
+        },
+        {
+            "word": "soup",
+            "phrase": "She made a warm bowl of [soup] for dinner.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A liquid dish made by boiling meat, vegetables, or fish in water.",
+                "simplified": "A warm liquid food often made with vegetables or meat.",
+                "example": "I had chicken soup for lunch."
+            }
+        },
+        {
+            "word": "south",
+            "phrase": "They traveled [south] for the winter.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The direction toward the point of the horizon 90 degrees to the right of east.",
+                "simplified": "The direction opposite to north.",
+                "example": "Birds fly south in the winter."
+            }
+        },
+        {
+            "word": "space",
+            "phrase": "There’s enough [space] for everyone to sit down.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A continuous area or expanse that is free, available, or unoccupied.",
+                "simplified": "An empty or available area.",
+                "example": "We found a parking space near the store."
+            }
+        },
+        {
+            "word": "speak",
+            "phrase": "He will [speak] at the conference next week.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To say words; to talk.",
+                "simplified": "To talk to someone or say something.",
+                "example": "She speaks three languages."
+            }
+        },
+        {
+            "word": "special",
+            "phrase": "This necklace is [special] to me because it was a gift.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Better, greater, or otherwise different from what is usual.",
+                "simplified": "Unique or important in some way.",
+                "example": "The day was special for everyone."
+            }
+        },
+        {
+            "word": "speed",
+            "phrase": "The car’s [speed] was too fast for the narrow road.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The rate at which someone or something moves or operates.",
+                "simplified": "How fast something moves.",
+                "example": "The speed limit is 50 kilometers per hour."
+            }
+        },
+        {
+            "word": "spell",
+            "phrase": "Can you [spell] your name for me, please?",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To name or write the letters that form a word in the correct order.",
+                "simplified": "To say or write the letters of a word in order.",
+                "example": "He spelled his last name for the clerk."
+            }
+        },
+        {
+            "word": "spend",
+            "phrase": "They [spend] time together every weekend.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To use time doing something or pass it in a particular manner.",
+                "simplified": "To use time doing something.",
+                "example": "We spent the afternoon at the park."
+            }
+        },
+        {
+            "word": "spoon",
+            "phrase": "She stirred the soup with a [spoon].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A utensil consisting of a small, shallow bowl with a handle, used for eating or serving food.",
+                "simplified": "A tool with a round end used for eating or stirring.",
+                "example": "He ate cereal with a spoon."
+            }
+        },
+        {
+            "word": "sport",
+            "phrase": "She plays her favorite [sport] on the weekends.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others.",
+                "simplified": "A physical activity done for enjoyment or competition.",
+                "example": "Football is a popular sport worldwide."
+            }
+        },
+        {
+            "word": "spread",
+            "phrase": "He used a knife to [spread] butter on his toast.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To extend over a large or increasing area.",
+                "simplified": "To apply or stretch something over a surface.",
+                "example": "She spread the blanket on the grass."
+            }
+        },
+        {
+            "word": "spring",
+            "phrase": "[Spring] is my favorite season because of the blooming flowers.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The season between winter and summer when the weather becomes warmer and plants start to grow again.",
+                "simplified": "The season after winter when plants grow and the weather gets warmer.",
+                "example": "We went for a picnic in spring."
+            }
+        },
+        {
+            "word": "square",
+            "phrase": "They met at the town [square].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A plane figure with four equal straight sides and four right angles, or a public open area where people can meet.",
+                "simplified": "A shape with four equal sides, or a public meeting place.",
+                "example": "The park is in the center of the square."
+            }
+        },
+        {
+            "word": "stamp",
+            "phrase": "He put a [stamp] on the envelope before sending it.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A small piece of paper stuck on mail to show that the cost of sending it has been paid.",
+                "simplified": "A small piece of paper that shows payment for sending mail.",
+                "example": "She collected rare stamps."
+            }
+        },
+        {
+            "word": "stand",
+            "phrase": "Please [stand] up when your name is called.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To be in an upright position on the feet.",
+                "simplified": "To rise and be on your feet.",
+                "example": "They stood to show respect during the ceremony."
+            }
+        },
+        {
+            "word": "star",
+            "phrase": "The night sky was full of [stars].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A fixed luminous point in the night sky, which is a large, remote incandescent body like the sun.",
+                "simplified": "A bright point in the sky seen at night.",
+                "example": "We made wishes on the shooting stars."
+            }
+        },
+        {
+            "word": "start",
+            "phrase": "The race will [start] in five minutes.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To begin or set in motion.",
+                "simplified": "To begin something.",
+                "example": "They started their journey early in the morning."
+            }
+        },
+        {
+            "word": "station",
+            "phrase": "We waited for the train at the [station].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A place where buses, trains, or other vehicles regularly stop so that passengers can get on and off.",
+                "simplified": "A place where trains or buses stop for passengers.",
+                "example": "The bus station is near my house."
+            }
+        },
+        {
+            "word": "stay",
+            "phrase": "We decided to [stay] home because it was raining.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To remain in a specific place or position.",
+                "simplified": "To not leave a place.",
+                "example": "She stayed at her friend's house last night."
+            }
+        },
+        {
+            "word": "steal",
+            "phrase": "Someone tried to [steal] my wallet.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To take something that does not belong to you, without permission.",
+                "simplified": "To take something that isn't yours.",
+                "example": "He was caught trying to steal a bike."
+            }
+        },
+        {
+            "word": "steam",
+            "phrase": "The hot soup was giving off [steam].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The vapor into which water is converted when heated, forming a white mist of minute water droplets.",
+                "simplified": "The mist that comes from boiling water.",
+                "example": "The steam from the kettle filled the room."
+            }
+        },
+        {
+            "word": "step",
+            "phrase": "She took a [step] forward to get a better view.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The act of lifting one foot and putting it down in a new position.",
+                "simplified": "One movement made by lifting your foot and moving it.",
+                "example": "He took a few steps back."
+            }
+        },
+        {
+            "word": "still",
+            "phrase": "Please remain [still] while I take the photo.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Not moving or making a sound.",
+                "simplified": "Not moving.",
+                "example": "The water was completely still, without a ripple."
+            }
+        },
+        {
+            "word": "stomach",
+            "phrase": "He complained of a [stomach] ache after eating too much.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The internal organ in which the major part of the digestion of food occurs.",
+                "simplified": "The part of your body where food is digested.",
+                "example": "His stomach hurt after the meal."
+            }
+        },
+        {
+            "word": "stone",
+            "phrase": "She picked up a smooth [stone] from the beach.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A hard, solid nonmetallic mineral matter of which rock is made.",
+                "simplified": "A small piece of rock.",
+                "example": "They skipped stones across the lake."
+            }
+        },
+        {
+            "word": "stop",
+            "phrase": "The car will [stop] at the traffic light.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To come to an end; cease to happen.",
+                "simplified": "To bring something to an end or not move.",
+                "example": "He stopped walking to take a rest."
+            }
+        },
+        {
+            "word": "store",
+            "phrase": "We went to the [store] to buy groceries.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A place where goods are sold to customers.",
+                "simplified": "A shop where you can buy things.",
+                "example": "She works at a clothing store."
+            }
+        },
+        {
+            "word": "storm",
+            "phrase": "The [storm] caused heavy rainfall and strong winds.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A violent disturbance of the atmosphere with strong winds and usually rain, thunder, lightning, or snow.",
+                "simplified": "Very bad weather with wind and rain or snow.",
+                "example": "The storm lasted all night."
+            }
+        },
+        {
+            "word": "story",
+            "phrase": "She read a bedtime [story] to the children.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An account of imaginary or real people and events told for entertainment.",
+                "simplified": "A tale or account of events, either real or fictional.",
+                "example": "He wrote a short story about his childhood."
+            }
+        },
+        {
+            "word": "strange",
+            "phrase": "She heard a [strange] noise coming from the attic.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Unusual or surprising in a way that is unsettling or hard to understand.",
+                "simplified": "Not normal or familiar.",
+                "example": "He felt strange after eating something unfamiliar."
+            }
+        },
+        {
+            "word": "street",
+            "phrase": "They live on a quiet [street] in the suburbs.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A public road in a city or town, typically with houses and buildings on one or both sides.",
+                "simplified": "A road in a town or city where people and vehicles travel.",
+                "example": "Cars lined the street on both sides."
+            }
+        },
+        {
+            "word": "strong",
+            "phrase": "He is physically [strong] and can lift heavy weights.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having great physical power and ability to move heavy things or exert force.",
+                "simplified": "Able to use a lot of force; powerful.",
+                "example": "The strong wind knocked down the trees."
+            }
+        },
+        {
+            "word": "structure",
+            "phrase": "The [structure] of the building was damaged during the earthquake.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The arrangement of and relations between the parts or elements of something complex.",
+                "simplified": "The way parts of something are organized or put together.",
+                "example": "The bridge has a solid structure."
+            }
+        },
+        {
+            "word": "student",
+            "phrase": "The [student] asked a question during the lecture.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A person who is studying at a school or college.",
+                "simplified": "A person who is learning at school or college.",
+                "example": "The student studied hard for the exam."
+            }
+        },
+        {
+            "word": "study",
+            "phrase": "She needs to [study] for her final exams.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To apply oneself to acquiring knowledge, typically by reading.",
+                "simplified": "To learn about something, especially by reading.",
+                "example": "He studied late into the night."
+            }
+        },
+        {
+            "word": "stupid",
+            "phrase": "He made a [stupid] mistake during the test.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having or showing a great lack of intelligence or common sense.",
+                "simplified": "Lacking good sense or intelligence.",
+                "example": "That was a stupid thing to do."
+            }
+        },
+        {
+            "word": "subject",
+            "phrase": "History was her favorite [subject] in school.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A branch of knowledge studied or taught in school, college, or university.",
+                "simplified": "A field of study or area of knowledge.",
+                "example": "Mathematics is a challenging subject."
+            }
+        },
+        {
+            "word": "substance",
+            "phrase": "The scientist discovered a new chemical [substance].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A particular kind of matter with uniform properties.",
+                "simplified": "A type of material or matter.",
+                "example": "Water is a simple substance."
+            }
+        },
+        {
+            "word": "successful",
+            "phrase": "She is a [successful] businesswoman with many clients.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Achieving or having achieved success.",
+                "simplified": "Having achieved what you aimed for.",
+                "example": "He became a successful writer."
+            }
+        },
+        {
+            "word": "such",
+            "phrase": "[Such] behavior will not be tolerated in the classroom.",
+            "description": {
+                "part_of_speech": "determiner",
+                "definition": "Of the type previously mentioned or implied.",
+                "simplified": "Of that kind or type.",
+                "example": "She had never seen such a beautiful painting."
+            }
+        },
+        {
+            "word": "sudden",
+            "phrase": "There was a [sudden] change in the weather.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Occurring or done quickly and unexpectedly or without warning.",
+                "simplified": "Happening quickly and unexpectedly.",
+                "example": "His sudden arrival surprised everyone."
+            }
+        },
+        {
+            "word": "sugar",
+            "phrase": "She added a teaspoon of [sugar] to her tea.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A sweet crystalline substance obtained from various plants, used as a sweetener in food and drink.",
+                "simplified": "A sweet substance used in food and drinks.",
+                "example": "The cake needs more sugar."
+            }
+        },
+        {
+            "word": "suitable",
+            "phrase": "The shoes were not [suitable] for hiking.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Right or appropriate for a particular person, purpose, or situation.",
+                "simplified": "Appropriate or fitting for a situation.",
+                "example": "These clothes are suitable for cold weather."
+            }
+        },
+        {
+            "word": "summer",
+            "phrase": "[Summer] is my favorite season because of the warm weather.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The warmest season of the year, typically between spring and autumn.",
+                "simplified": "The hot season between spring and autumn.",
+                "example": "We always go to the beach in summer."
+            }
+        },
+        {
+            "word": "sun",
+            "phrase": "The [sun] was shining brightly in the sky.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The star around which the earth orbits and from which it receives heat and light.",
+                "simplified": "The star that gives light and heat to Earth.",
+                "example": "The sun rises in the east."
+            }
+        },
+        {
+            "word": "sunny",
+            "phrase": "It was a beautiful, [sunny] day at the beach.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Bright with sunlight.",
+                "simplified": "Full of sunshine.",
+                "example": "The weather forecast says it will be sunny tomorrow."
+            }
+        },
+        {
+            "word": "support",
+            "phrase": "Her family gave her emotional [support] during a difficult time.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "Assistance, encouragement, or approval provided to someone or something.",
+                "simplified": "Help or encouragement.",
+                "example": "She received a lot of support from her friends."
+            }
+        },
+        {
+            "word": "sure",
+            "phrase": "Are you [sure] this is the right way?",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Confident that one is correct.",
+                "simplified": "Certain or confident.",
+                "example": "I’m sure I locked the door."
+            }
+        },
+        {
+            "word": "surprise",
+            "phrase": "They planned a [surprise] party for her birthday.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An unexpected or astonishing event, fact, or thing.",
+                "simplified": "Something unexpected.",
+                "example": "The gift was a pleasant surprise."
+            }
+        },
+        {
+            "word": "sweet",
+            "phrase": "The cake was too [sweet] for my taste.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having the pleasant taste characteristic of sugar or honey.",
+                "simplified": "Tasting like sugar.",
+                "example": "I prefer sweet foods to salty ones."
+            }
+        },
+        {
+            "word": "swim",
+            "phrase": "They went for a [swim] in the lake.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To move through water by making movements with your arms and legs.",
+                "simplified": "To move through water using your body.",
+                "example": "She learned how to swim when she was five."
+            }
+        },
+        {
+            "word": "sword",
+            "phrase": "The knight drew his [sword] before the battle.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A weapon with a long metal blade and a hilt, used for fighting.",
+                "simplified": "A long blade used in combat.",
+                "example": "The museum had ancient swords on display."
             }
         }
     ]
