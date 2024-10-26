@@ -1,9 +1,31 @@
 // Fetch all words attempted from the localStorage
 let attempts = JSON.parse(localStorage.getItem('attempts'));
 
+// Fetch all starred words from the localStorage
+let starred = JSON.parse(localStorage.getItem('starred'));
+
 let sentencesContainer = document.querySelector('#sentences-container');
 let revealAllWords = document.querySelector('#reveal-all-words')
+let filterStarred = document.querySelector('#filter-starred')
 
+
+let showOnlyStarred = false;
+
+filterStarred.addEventListener('click', () => {
+  showOnlyStarred = !showOnlyStarred;
+
+  let sentenceItems = sentencesContainer.getElementsByTagName('li');
+  for (const sentenceItem of sentenceItems) {
+    if (showOnlyStarred && !sentenceItem.classList.contains('starred')) {
+      sentenceItem.style.display = 'none';
+    } else {
+      sentenceItem.style.display = ''; // Restore visibility
+    }
+  }
+
+  // Update button text
+  filterStarred.textContent = showOnlyStarred ? 'Show All' : 'Show Only Starred';
+});
 // This section to be replaced with a proper caching of the phrases
 let sentences = [];
 
@@ -17,7 +39,7 @@ fetch('phrases.json')
   })
   .then(data => {
     sentences = data; // Store the JSON data in the sentences variable
-    
+
     populateSentencesContainer()
   })
   .catch(error => {
@@ -28,18 +50,24 @@ fetch('phrases.json')
 
 
 function populateSentencesContainer() {
-    // Check if there are any attempts in local storage
-    if (attempts) {
-        for (word of Object.keys(attempts)) {
-            let sentenceListElement = document.createElement('li');
-            sentenceListElement.innerHTML = formatSentence(findSentence(word))
-            sentencesContainer.appendChild(sentenceListElement)
+  // Check if there are any attempts in local storage
+  if (attempts) {
+    for (word of Object.keys(attempts)) {
+      let sentenceListElement = document.createElement('li');
+      sentenceListElement.innerHTML = formatSentence(findSentence(word))
+      if (starred) {
+        if (starred.includes(word)) {
+          sentenceListElement.innerHTML += " ⭐";
+          sentenceListElement.classList.add("starred")
         }
-    } else {
-        sentencesContainer.textContent = `No sentences to show, start working on some and they 
-                                        will show up here!`
+      }
+      sentencesContainer.appendChild(sentenceListElement)
     }
-}  
+  } else {
+    sentencesContainer.textContent = `No sentences to show, start working on some and they 
+                                        will show up here!`
+  }
+}
 
 /**
  * Search in the sentences object for the sentence displayed for a specific word
@@ -48,8 +76,8 @@ function populateSentencesContainer() {
  * @returns {string}    - The sentence with the word in square brackets                    
  */
 function findSentence(word) {
-    let initialArray = sentences[word[0].toUpperCase()]; 
-    return initialArray.find(obj => obj.word === word)['phrase'];
+  let initialArray = sentences[word[0].toUpperCase()];
+  return initialArray.find(obj => obj.word === word)['phrase'];
 
 }
 
@@ -60,25 +88,25 @@ function findSentence(word) {
  * @returns {string}        - The HTML code for the sentence with a system to reveal the word
  */
 function formatSentence(sentence) {
-    // Find the word solution inside the text (between square brackets)
-    let match = sentence.match(/\[(.*?)\]/);
-    wordSolution = match ? match[1] : null; // Extract the first captured group or null if not found
+  // Find the word solution inside the text (between square brackets)
+  let match = sentence.match(/\[(.*?)\]/);
+  wordSolution = match ? match[1] : null; // Extract the first captured group or null if not found
 
-    let revealWordHTML = `<span class='blurred-solution' title='Reveal word' style='cursor: pointer' onClick='this.style.filter="none"'>${wordSolution}</span>`
-    // Replace the matched word in the sentence
-    sentence = sentence.replace(`[${wordSolution}]`, revealWordHTML);
+  let revealWordHTML = `<span class='blurred-solution' title='Reveal word' style='cursor: pointer' onClick='this.style.filter="none"'>${wordSolution}</span>`
+  // Replace the matched word in the sentence
+  sentence = sentence.replace(`[${wordSolution}]`, revealWordHTML);
 
-    // Remove the blur by setting filter to none
-    return sentence
+  // Remove the blur by setting filter to none
+  return sentence
 }
 
 
 
 // On click, reveal all words
-revealAllWords.addEventListener('click', function() {
-    // Add event listener to each element
-    document.querySelectorAll('.blurred-solution').forEach(element => {
-        element.style.filter = 'none';
-    });
+revealAllWords.addEventListener('click', function () {
+  // Add event listener to each element
+  document.querySelectorAll('.blurred-solution').forEach(element => {
+    element.style.filter = 'none';
+  });
 })
 
