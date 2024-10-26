@@ -13,6 +13,12 @@ button {
     font-weight: bold;
 }
 
+button:active {
+    box-shadow: 0px 2px 5px #3a3a3a;
+    transform: scale(0.9); 
+    background-color: rgb(67, 67, 67);
+}
+
 button:disabled {
     background-color: rgb(216, 216, 216);
     color: rgb(67, 67, 67);

@@ -14,6 +14,18 @@ let resultDialog = document.querySelector("#result-dialog")
 
 let resultMessage = document.querySelector("#result-message")
 
+let saveSentenceButton = document.querySelector("#save-sentence")
+
+saveSentenceButton.addEventListener('click', () => {
+  if (!starred.includes(wordSolution)) {
+    starred.push(wordSolution)
+    // Update the 'starred' array in localStorage.
+    localStorage.setItem('starred', JSON.stringify(starred)); 
+  }
+  saveSentenceButton.disabled = true
+});
+
+
 let totalSentences = 0
 // Variable to store the data
 let sentences = [];
@@ -87,6 +99,8 @@ function newSentence() {
   });
 
 
+
+
 /*   This part malfunctions with the dialog
   // Add an event listener to the input to check the exercise on
   // pressing the Enter key.
@@ -100,6 +114,8 @@ function newSentence() {
     }
   }); */
 
+  // Reactivate the "Save sentence" button
+  saveSentenceButton.disabled = false
 
   inputBox.focus()
 }
@@ -120,8 +136,19 @@ if (attempts === null) {
   attempts = JSON.parse(attempts);
 }
 
+// Check if starred exists in localStorage
+let starred = localStorage.getItem('starred');
 
-// Check if attempts exists in localStorage
+// If it doesn't exist, initialise it as an empty object
+if (starred === null) {
+  starred = [];
+} else {
+  // If it exists, parse it
+  starred = JSON.parse(starred);
+}
+
+
+// Check if statistics exists in localStorage
 let statistics = localStorage.getItem('statistics');
 
 // If it doesn't exist, initialise it as an empty object
@@ -137,6 +164,8 @@ if (statistics === null) {
   statistics = JSON.parse(statistics);
   updateStatisticsDisplay(statistics)
 }
+
+
 
 
 
