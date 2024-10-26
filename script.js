@@ -9,6 +9,11 @@ let skippedExercisesCounter = document.querySelector('#skipped-exercises')
 let showAnswerButton = document.querySelector('#show-answer')
 let checkExerciseButton = document.querySelector('#check-answer')
 
+
+let resultDialog = document.querySelector("#result-dialog")
+
+let resultMessage = document.querySelector("#result-message")
+
 let totalSentences = 0
 // Variable to store the data
 let sentences = [];
@@ -81,6 +86,8 @@ function newSentence() {
     
   });
 
+
+/*   This part malfunctions with the dialog
   // Add an event listener to the input to check the exercise on
   // pressing the Enter key.
   // Add an event listener for the keydown event
@@ -91,7 +98,7 @@ function newSentence() {
       // Call the checkExercise function
       checkExercise();
     }
-  });
+  }); */
 
 
   inputBox.focus()
@@ -142,18 +149,18 @@ function checkExercise() {
   updateAttempts(wordSolution, result, userAnswer)
 
   if (result) {
-    alert("Great!")
-    newSentence()
+    resultMessage.textContent = "Great!"
     statistics.right ++;
   } else {
-    alert("Wrong, try again!")
+    resultMessage.textContent = "Wrong, try again!"
     statistics.wrong ++;
     newSentenceButton.disabled = false
     showAnswerButton.style.visibility = 'visible'
     inputBox.value = ''
-    
     inputBox.focus()
   }
+
+  resultDialog.showModal()
 
   updateStatisticsDisplay(statistics)
 
@@ -208,3 +215,7 @@ function updateStatisticsDisplay(statistics) {
   wrongAnswersCounter.textContent = parseInt(statistics.wrong);
   skippedExercisesCounter.textContent = parseInt(statistics.skipped);  
 }
+
+
+
+

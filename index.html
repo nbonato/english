@@ -24,9 +24,19 @@
             <p id="sentence-paragraph"></p>            
             <button id="new-sentence" onclick="newSentence()">Skip this sentence</button>
             <button id="check-answer" onclick="checkExercise()" disabled>Check your answer</button>
-            <button id="show-answer" onclick="showAnswer()">See the answer</button>
-            <p id="answer" style="font-weight: bold; visibility: hidden"></p>
+            
         </div>
+
+
+        <dialog id="result-dialog">
+            <form>
+                <p id="result-message"></p>
+                <button type="button" onclick="document.getElementById('result-dialog').close()">Close dialog</button>
+                <button type="button" id="show-answer" onclick="showAnswer()">See the answer</button>
+                <p id="answer" style="font-weight: bold; visibility: hidden"></p>
+            </form>
+        </dialog>
+
 
         <div class="card" id="statistics">
             <p>Right answers: <span id="right-answers">0</span></p>
