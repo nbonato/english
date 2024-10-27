@@ -30,7 +30,8 @@
         <dialog id="result-dialog">
             <form>
                 <p id="result-message"></p>
-                <button type="button" onclick="document.getElementById('result-dialog').close()">Close dialog</button>
+                <button type="button" id="close-dialog">Close dialog</button>
+                <button id="next-sentence" onclick="newSentence()">Next sentence</button>
                 <button type="button" id="show-answer" onclick="showAnswer()">See the answer</button>
                 <button type="button" id="save-sentence">Save sentence</button>
                 <p id="answer" style="font-weight: bold; visibility: hidden"></p>

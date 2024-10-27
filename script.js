@@ -15,6 +15,21 @@ let resultDialog = document.querySelector("#result-dialog")
 let resultMessage = document.querySelector("#result-message")
 
 let saveSentenceButton = document.querySelector("#save-sentence")
+let nextSentenceDialogButton = document.querySelector("#next-sentence")
+let closeDialogButton = document.querySelector('#close-dialog')
+
+closeDialogButton.addEventListener('click', () => {
+  resultDialog.close()
+  // Once the dialog is closed, hide the answer again
+  // this is useful if the user gets the answer wrong,
+  // shows the right answer and then goes back to input
+  // the answer. 
+  // In the future, showing the answer should make it so 
+  // the user is forced to go to the next sentence.
+  answerParagraph.style.visibility = "hidden"
+})
+
+nextSentenceDialogButton.style.display = 'none'
 
 saveSentenceButton.addEventListener('click', () => {
   if (!starred.includes(wordSolution)) {
@@ -74,7 +89,7 @@ newSentenceButton.addEventListener('click', () => {
 });
 
 function newSentence() {
-  showAnswerButton.style.visibility = 'hidden'
+  showAnswerButton.style.display = 'none'
   answerParagraph.style.visibility = 'hidden'
   let randomExercise = getRandomExcercise(sentences)
   let exerciseSentence = randomExercise['phrase']
@@ -180,11 +195,16 @@ function checkExercise() {
   if (result) {
     resultMessage.textContent = "Great!"
     statistics.right ++;
+    nextSentenceDialogButton.style.display = 'inline'
+    closeDialogButton.style.display = 'none'
+    showAnswerButton.style.display = 'none'
   } else {
     resultMessage.textContent = "Wrong, try again!"
+    nextSentenceDialogButton.style.display = 'hidden'
     statistics.wrong ++;
     newSentenceButton.disabled = false
-    showAnswerButton.style.visibility = 'visible'
+    showAnswerButton.style.display = 'inline'
+    closeDialogButton.style.display = 'inline'
     inputBox.value = ''
     inputBox.focus()
   }
