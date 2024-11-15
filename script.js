@@ -2,14 +2,22 @@ import { getRandomExercise } from './getRandomElements.js'
 
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
+
 let newSentenceButton = document.querySelector('#new-sentence')
+newSentenceButton.addEventListener('click', newSentence);
+
+
 let answerParagraph = document.querySelector('#answer')
 
 let rightAnswersCounter = document.querySelector('#right-answers')
 let wrongAnswersCounter = document.querySelector('#wrong-answers')
 let skippedExercisesCounter = document.querySelector('#skipped-exercises')
+
 let showAnswerButton = document.querySelector('#show-answer')
+showAnswerButton.addEventListener('click', showAnswer);
+
 let checkExerciseButton = document.querySelector('#check-answer')
+checkExerciseButton.addEventListener('click', checkExercise);
 
 
 let resultDialog = document.querySelector("#result-dialog")
@@ -17,7 +25,10 @@ let resultDialog = document.querySelector("#result-dialog")
 let resultMessage = document.querySelector("#result-message")
 
 let saveSentenceButton = document.querySelector("#save-sentence")
+
 let nextSentenceDialogButton = document.querySelector("#next-sentence")
+nextSentenceDialogButton.addEventListener('click', newSentence);
+
 let closeDialogButton = document.querySelector('#close-dialog')
 
 closeDialogButton.addEventListener('click', () => {
