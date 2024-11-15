@@ -1,3 +1,4 @@
+import { updateDrawScore, checkDrawScoreThreshold, initialiseDrawScores , initialiseThreshold, increaseDrawThreshold } from './spaced.js';
 import { getRandomExercise } from './getRandomElements.js'
 
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
@@ -30,6 +31,10 @@ let nextSentenceDialogButton = document.querySelector("#next-sentence")
 nextSentenceDialogButton.addEventListener('click', newSentence);
 
 let closeDialogButton = document.querySelector('#close-dialog')
+
+
+window.drawThreshold = initialiseThreshold()
+window.drawScores = initialiseDrawScores()
 
 closeDialogButton.addEventListener('click', () => {
   resultDialog.close()
@@ -91,7 +96,14 @@ newSentenceButton.addEventListener('click', () => {
 function newSentence() {
   showAnswerButton.style.display = 'none'
   answerParagraph.style.visibility = 'hidden'
-  let randomExercise = getRandomExcercise(sentences)
+
+
+  let randomExercise = getRandomExercise(sentences)
+
+  while (!checkDrawScoreThreshold(randomExercise['word'].toLowerCase())) {
+    randomExercise = getRandomExercise(sentences);
+  }
+
   let exerciseSentence = randomExercise['phrase']
   let inputBoxHTML = '<input id="input-box" type="text" placeholder="..." style="text-align: center">'
   // Replacing text inside square brackets with input box
@@ -198,6 +210,7 @@ function checkExercise() {
     nextSentenceDialogButton.style.display = 'inline'
     closeDialogButton.style.display = 'none'
     showAnswerButton.style.display = 'none'
+    increaseDrawThreshold()
   } else {
     resultMessage.textContent = "Wrong, try again!"
     nextSentenceDialogButton.style.display = 'hidden'
@@ -208,6 +221,9 @@ function checkExercise() {
     inputBox.value = ''
     inputBox.focus()
   }
+
+  
+  updateDrawScore(wordSolution, result)
 
   resultDialog.showModal()
 
