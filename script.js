@@ -67,7 +67,6 @@ fetch('phrases.json')
 
 function getRandomLetter() {
   let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  alphabet = 'ABCDEF';
   const randomIndex = Math.floor(Math.random() * alphabet.length); // Get a random index
   return alphabet[randomIndex]; // Return the letter at the random index
 }
