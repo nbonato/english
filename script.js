@@ -1,3 +1,5 @@
+import { getRandomExercise } from './getRandomElements.js'
+
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
 let newSentenceButton = document.querySelector('#new-sentence')
@@ -65,19 +67,7 @@ fetch('phrases.json')
   });
 
 
-function getRandomLetter() {
-  let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const randomIndex = Math.floor(Math.random() * alphabet.length); // Get a random index
-  return alphabet[randomIndex]; // Return the letter at the random index
-}
 
-let selectedLetter;
-function getRandomExcercise(sentences) {
-  selectedLetter = getRandomLetter();
-  let subsetSentences = sentences[selectedLetter];
-  let randomExcercise = subsetSentences[Math.floor(Math.random() * subsetSentences.length)];
-  return randomExcercise
-}
 
 let wordSolution;
 let inputBox;
@@ -100,7 +90,7 @@ function newSentence() {
   wordSolution = match ? match[1] : null; // Extract the first captured group or null if not found
 
   sentenceParagraph.innerHTML = currentSentence
-  definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${selectedLetter}`
+  definitionParagraph.textContent = `${randomExercise['description']['simplified']} Starts with ${wordSolution[0].toUpperCase()}`
   newSentenceButton.disabled = true
   totalSentences++
 
