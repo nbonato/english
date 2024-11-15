@@ -3031,6 +3031,278 @@
             }
         }
     ],
+    "G": [
+        {
+            "word": "game",
+            "phrase": "Let's play a [game].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "An activity that one engages in for amusement or fun, often involving rules.",
+                "simplified": "A fun activity with rules.",
+                "example": "We played a board game last night."
+            }
+        },
+        {
+            "word": "garden",
+            "phrase": "She has a beautiful [garden].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A piece of ground where plants, flowers, or vegetables are cultivated.",
+                "simplified": "A place for growing plants.",
+                "example": "The garden is full of colorful flowers."
+            }
+        },
+        {
+            "word": "gate",
+            "phrase": "Please close the [gate].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A hinged barrier used to close an opening in a fence or wall.",
+                "simplified": "A door in a fence.",
+                "example": "The gate was locked at night."
+            }
+        },
+        {
+            "word": "general",
+            "phrase": "In [general], I like the idea.",
+            "description": {
+                "part_of_speech": "adjective/noun",
+                "definition": "Not specific; a high-ranking officer in the army.",
+                "simplified": "Overall; a military rank.",
+                "example": "In general, we agree on the plan."
+            }
+        },
+        {
+            "word": "gentleman",
+            "phrase": "He is a true [gentleman].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A polite or honorable man; often used as a title.",
+                "simplified": "A polite man.",
+                "example": "The gentleman held the door open."
+            }
+        },
+        {
+            "word": "get",
+            "phrase": "Can you [get] me a drink?",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To obtain, receive, or come to have something.",
+                "simplified": "To obtain.",
+                "example": "I need to get my keys."
+            }
+        },
+        {
+            "word": "gift",
+            "phrase": "She gave me a lovely [gift].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A thing given willingly to someone without payment.",
+                "simplified": "A present.",
+                "example": "He received a gift for his birthday."
+            }
+        },
+        {
+            "word": "give",
+            "phrase": "I want to [give] you something.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To freely transfer the possession of something to someone.",
+                "simplified": "To hand over.",
+                "example": "Please give me a call later."
+            }
+        },
+        {
+            "word": "glad",
+            "phrase": "I'm [glad] to see you.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Feeling pleasure or happiness.",
+                "simplified": "Happy.",
+                "example": "She was glad to help."
+            }
+        },
+        {
+            "word": "glass",
+            "phrase": "Be careful with that [glass].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A hard, transparent substance used for making windows and containers.",
+                "simplified": "A hard, clear material.",
+                "example": "The glass broke into pieces."
+            }
+        },
+        {
+            "word": "go",
+            "phrase": "I will [go] to the store.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To move from one place to another; to leave.",
+                "simplified": "To move.",
+                "example": "Let's go for a walk."
+            }
+        },
+        {
+            "word": "goat",
+            "phrase": "The [goat] climbed the hill.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A hardy domesticated ruminant animal, often kept for milk or meat.",
+                "simplified": "A farm animal.",
+                "example": "The goat bleated loudly."
+            }
+        },
+        {
+            "word": "god",
+            "phrase": "Many people believe in [god].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A superhuman being or spirit worshipped as having power over nature or human fortunes.",
+                "simplified": "A deity.",
+                "example": "They pray to God for guidance."
+            }
+        },
+        {
+            "word": "gold",
+            "phrase": "She wore a [gold] necklace.",
+            "description": {
+                "part_of_speech": "noun/adjective",
+                "definition": "A yellow precious metal; valuable and often used in jewelry.",
+                "simplified": "A valuable yellow metal.",
+                "example": "Gold is used in making coins."
+            }
+        },
+        {
+            "word": "good",
+            "phrase": "You did a [good] job.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Having positive qualities; of high quality.",
+                "simplified": "Pleasant or acceptable.",
+                "example": "She is a good student."
+            }
+        },
+        {
+            "word": "goodbye",
+            "phrase": "He said [goodbye] as he left.",
+            "description": {
+                "part_of_speech": "interjection/noun",
+                "definition": "Used to express farewell.",
+                "simplified": "A way to say farewell.",
+                "example": "Goodbye! See you tomorrow."
+            }
+        },
+        {
+            "word": "grandfather",
+            "phrase": "My [grandfather] is very wise.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The father of one's father or mother.",
+                "simplified": "Your parent's father.",
+                "example": "My grandfather tells great stories."
+            }
+        },
+        {
+            "word": "grandmother",
+            "phrase": "She visits her [grandmother] every weekend.",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The mother of one's father or mother.",
+                "simplified": "Your parent's mother.",
+                "example": "My grandmother loves to bake."
+            }
+        },
+        {
+            "word": "grass",
+            "phrase": "The field is covered in [grass].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A common plant with narrow leaves, often found in fields and lawns.",
+                "simplified": "The green plants on the ground.",
+                "example": "The grass is green after the rain."
+            }
+        },
+        {
+            "word": "grave",
+            "phrase": "He visited his father's [grave].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A place of burial for a dead body.",
+                "simplified": "A burial site.",
+                "example": "The grave was decorated with flowers."
+            }
+        },
+        {
+            "word": "great",
+            "phrase": "You did a [great] job!",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "Of an extent, amount, or intensity considerably above average.",
+                "simplified": "Very good.",
+                "example": "The movie was great!"
+            }
+        },
+        {
+            "word": "green",
+            "phrase": "The leaves are [green].",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "The color of grass or leaves; associated with nature.",
+                "simplified": "The color of grass.",
+                "example": "He wore a green shirt."
+            }
+        },
+        {
+            "word": "grey",
+            "phrase": "The sky is [grey] today.",
+            "description": {
+                "part_of_speech": "adjective",
+                "definition": "A color between black and white.",
+                "simplified": "A color that is not black or white.",
+                "example": "The walls are painted grey."
+            }
+        },
+        {
+            "word": "ground",
+            "phrase": "The ball landed on the [ground].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "The solid surface of the earth.",
+                "simplified": "The surface of the earth.",
+                "example": "He fell to the ground."
+            }
+        },
+        {
+            "word": "group",
+            "phrase": "We formed a study [group].",
+            "description": {
+                "part_of_speech": "noun/verb",
+                "definition": "A number of people or things located or classed together; to gather together.",
+                "simplified": "A collection of people or things.",
+                "example": "The group meets every week."
+            }
+        },
+        {
+            "word": "grow",
+            "phrase": "Plants [grow] in sunlight.",
+            "description": {
+                "part_of_speech": "verb",
+                "definition": "To increase in size or develop.",
+                "simplified": "To increase in size.",
+                "example": "Children grow quickly."
+            }
+        },
+        {
+            "word": "gun",
+            "phrase": "He owns a hunting [gun].",
+            "description": {
+                "part_of_speech": "noun",
+                "definition": "A weapon that fires bullets.",
+                "simplified": "A weapon that shoots.",
+                "example": "The gun was kept in a safe."
+            }
+        }
+    ],
     "H": [
         {
             "word": "hair",
@@ -8665,278 +8937,6 @@
             }
         }
     ],
-    "G": [
-        {
-            "word": "game",
-            "phrase": "Let's play a [game].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "An activity that one engages in for amusement or fun, often involving rules.",
-                "simplified": "A fun activity with rules.",
-                "example": "We played a board game last night."
-            }
-        },
-        {
-            "word": "garden",
-            "phrase": "She has a beautiful [garden].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A piece of ground where plants, flowers, or vegetables are cultivated.",
-                "simplified": "A place for growing plants.",
-                "example": "The garden is full of colorful flowers."
-            }
-        },
-        {
-            "word": "gate",
-            "phrase": "Please close the [gate].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A hinged barrier used to close an opening in a fence or wall.",
-                "simplified": "A door in a fence.",
-                "example": "The gate was locked at night."
-            }
-        },
-        {
-            "word": "general",
-            "phrase": "In [general], I like the idea.",
-            "description": {
-                "part_of_speech": "adjective/noun",
-                "definition": "Not specific; a high-ranking officer in the army.",
-                "simplified": "Overall; a military rank.",
-                "example": "In general, we agree on the plan."
-            }
-        },
-        {
-            "word": "gentleman",
-            "phrase": "He is a true [gentleman].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A polite or honorable man; often used as a title.",
-                "simplified": "A polite man.",
-                "example": "The gentleman held the door open."
-            }
-        },
-        {
-            "word": "get",
-            "phrase": "Can you [get] me a drink?",
-            "description": {
-                "part_of_speech": "verb",
-                "definition": "To obtain, receive, or come to have something.",
-                "simplified": "To obtain.",
-                "example": "I need to get my keys."
-            }
-        },
-        {
-            "word": "gift",
-            "phrase": "She gave me a lovely [gift].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A thing given willingly to someone without payment.",
-                "simplified": "A present.",
-                "example": "He received a gift for his birthday."
-            }
-        },
-        {
-            "word": "give",
-            "phrase": "I want to [give] you something.",
-            "description": {
-                "part_of_speech": "verb",
-                "definition": "To freely transfer the possession of something to someone.",
-                "simplified": "To hand over.",
-                "example": "Please give me a call later."
-            }
-        },
-        {
-            "word": "glad",
-            "phrase": "I'm [glad] to see you.",
-            "description": {
-                "part_of_speech": "adjective",
-                "definition": "Feeling pleasure or happiness.",
-                "simplified": "Happy.",
-                "example": "She was glad to help."
-            }
-        },
-        {
-            "word": "glass",
-            "phrase": "Be careful with that [glass].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A hard, transparent substance used for making windows and containers.",
-                "simplified": "A hard, clear material.",
-                "example": "The glass broke into pieces."
-            }
-        },
-        {
-            "word": "go",
-            "phrase": "I will [go] to the store.",
-            "description": {
-                "part_of_speech": "verb",
-                "definition": "To move from one place to another; to leave.",
-                "simplified": "To move.",
-                "example": "Let's go for a walk."
-            }
-        },
-        {
-            "word": "goat",
-            "phrase": "The [goat] climbed the hill.",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A hardy domesticated ruminant animal, often kept for milk or meat.",
-                "simplified": "A farm animal.",
-                "example": "The goat bleated loudly."
-            }
-        },
-        {
-            "word": "god",
-            "phrase": "Many people believe in [god].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A superhuman being or spirit worshipped as having power over nature or human fortunes.",
-                "simplified": "A deity.",
-                "example": "They pray to God for guidance."
-            }
-        },
-        {
-            "word": "gold",
-            "phrase": "She wore a [gold] necklace.",
-            "description": {
-                "part_of_speech": "noun/adjective",
-                "definition": "A yellow precious metal; valuable and often used in jewelry.",
-                "simplified": "A valuable yellow metal.",
-                "example": "Gold is used in making coins."
-            }
-        },
-        {
-            "word": "good",
-            "phrase": "You did a [good] job.",
-            "description": {
-                "part_of_speech": "adjective",
-                "definition": "Having positive qualities; of high quality.",
-                "simplified": "Pleasant or acceptable.",
-                "example": "She is a good student."
-            }
-        },
-        {
-            "word": "goodbye",
-            "phrase": "He said [goodbye] as he left.",
-            "description": {
-                "part_of_speech": "interjection/noun",
-                "definition": "Used to express farewell.",
-                "simplified": "A way to say farewell.",
-                "example": "Goodbye! See you tomorrow."
-            }
-        },
-        {
-            "word": "grandfather",
-            "phrase": "My [grandfather] is very wise.",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "The father of one's father or mother.",
-                "simplified": "Your parent's father.",
-                "example": "My grandfather tells great stories."
-            }
-        },
-        {
-            "word": "grandmother",
-            "phrase": "She visits her [grandmother] every weekend.",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "The mother of one's father or mother.",
-                "simplified": "Your parent's mother.",
-                "example": "My grandmother loves to bake."
-            }
-        },
-        {
-            "word": "grass",
-            "phrase": "The field is covered in [grass].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A common plant with narrow leaves, often found in fields and lawns.",
-                "simplified": "The green plants on the ground.",
-                "example": "The grass is green after the rain."
-            }
-        },
-        {
-            "word": "grave",
-            "phrase": "He visited his father's [grave].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A place of burial for a dead body.",
-                "simplified": "A burial site.",
-                "example": "The grave was decorated with flowers."
-            }
-        },
-        {
-            "word": "great",
-            "phrase": "You did a [great] job!",
-            "description": {
-                "part_of_speech": "adjective",
-                "definition": "Of an extent, amount, or intensity considerably above average.",
-                "simplified": "Very good.",
-                "example": "The movie was great!"
-            }
-        },
-        {
-            "word": "green",
-            "phrase": "The leaves are [green].",
-            "description": {
-                "part_of_speech": "adjective",
-                "definition": "The color of grass or leaves; associated with nature.",
-                "simplified": "The color of grass.",
-                "example": "He wore a green shirt."
-            }
-        },
-        {
-            "word": "grey",
-            "phrase": "The sky is [grey] today.",
-            "description": {
-                "part_of_speech": "adjective",
-                "definition": "A color between black and white.",
-                "simplified": "A color that is not black or white.",
-                "example": "The walls are painted grey."
-            }
-        },
-        {
-            "word": "ground",
-            "phrase": "The ball landed on the [ground].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "The solid surface of the earth.",
-                "simplified": "The surface of the earth.",
-                "example": "He fell to the ground."
-            }
-        },
-        {
-            "word": "group",
-            "phrase": "We formed a study [group].",
-            "description": {
-                "part_of_speech": "noun/verb",
-                "definition": "A number of people or things located or classed together; to gather together.",
-                "simplified": "A collection of people or things.",
-                "example": "The group meets every week."
-            }
-        },
-        {
-            "word": "grow",
-            "phrase": "Plants [grow] in sunlight.",
-            "description": {
-                "part_of_speech": "verb",
-                "definition": "To increase in size or develop.",
-                "simplified": "To increase in size.",
-                "example": "Children grow quickly."
-            }
-        },
-        {
-            "word": "gun",
-            "phrase": "He owns a hunting [gun].",
-            "description": {
-                "part_of_speech": "noun",
-                "definition": "A weapon that fires bullets.",
-                "simplified": "A weapon that shoots.",
-                "example": "The gun was kept in a safe."
-            }
-        }
-    ],
     "O": [
         {
             "word": "obey",
@@ -9637,6 +9637,15 @@
             "definition": "The numerical symbol representing the absence of quantity; it is the integer that precedes one.",
             "simplified": "The number that means 'nothing'.",
             "example": "Zero is neither positive nor negative."
+        },
+        "word": "zone",
+        "phrase": "The school is located in a quiet [zone]",
+        "description": {
+            "part_of_speech": "noun",
+            "definition": "An area or region distinguished from others by particular characteristics or uses.",
+            "simplified": "A specific area or region.",
+            "example": "This area is a restricted zone."
         }
+        
     }
 }
