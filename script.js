@@ -1,5 +1,8 @@
 import { updateDrawScore, checkDrawScoreThreshold, initialiseDrawScores , initialiseThreshold, increaseDrawThreshold } from './spaced.js';
 import { getRandomExercise } from './getRandomElements.js'
+import { debugging } from './debug.js';
+
+debugging()
 
 let sentenceParagraph = document.querySelector('#sentence-paragraph')
 let definitionParagraph = document.querySelector('#definition')
