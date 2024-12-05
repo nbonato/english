@@ -8,7 +8,7 @@ export function initialiseThreshold() {
         drawThreshold = 0
         localStorage.setItem("drawThreshold", drawThreshold);
     } else {
-        drawThreshold = localStorage.getItem("drawThreshold")
+        drawThreshold = parseFloat(localStorage.getItem("drawThreshold"))
     }
     return drawThreshold
 }
