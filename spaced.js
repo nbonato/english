@@ -77,10 +77,9 @@ export function increaseDrawThreshold() {
     return drawThreshold
 }
 
-export function decreaseDrawThreshold() {
-    if (drawThreshold >= 2) {
-        drawThreshold = drawThreshold - spacingFactor
-    } else {
+export function decreaseDrawThreshold(word) {
+    drawThreshold = drawThreshold - drawScores[word]/2
+    if (drawThreshold < 1) {
         drawThreshold = 1
     }
     localStorage.setItem("drawThreshold", drawThreshold)

@@ -222,7 +222,7 @@ function checkExercise() {
     showAnswerButton.style.display = 'inline'
     closeDialogButton.style.display = 'inline'
     inputBox.value = ''
-    decreaseDrawThreshold()
+    decreaseDrawThreshold(word)
     inputBox.focus()
   }
 
