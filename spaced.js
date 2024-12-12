@@ -68,7 +68,21 @@ export function updateDrawScore(word, hasBeenGuessed) {
 
 
 export function increaseDrawThreshold() {
-    drawThreshold = drawThreshold + spacingFactor
+    if (drawThreshold < drawLimit) {
+        drawThreshold = drawThreshold + spacingFactor
+    } else {
+        drawThreshold = drawLimit
+    }
+    localStorage.setItem("drawThreshold", drawThreshold)
+    return drawThreshold
+}
+
+export function decreaseDrawThreshold() {
+    if (drawThreshold >= 2) {
+        drawThreshold = drawThreshold - spacingFactor
+    } else {
+        drawThreshold = 1
+    }
     localStorage.setItem("drawThreshold", drawThreshold)
     return drawThreshold
 }

@@ -1,4 +1,4 @@
-import { updateDrawScore, checkDrawScoreThreshold, initialiseDrawScores , initialiseThreshold, increaseDrawThreshold } from './spaced.js';
+import { updateDrawScore, checkDrawScoreThreshold, initialiseDrawScores , initialiseThreshold, increaseDrawThreshold, decreaseDrawThreshold } from './spaced.js';
 import { getRandomExercise } from './getRandomElements.js'
 import { debugging } from './debug.js';
 
@@ -222,6 +222,7 @@ function checkExercise() {
     showAnswerButton.style.display = 'inline'
     closeDialogButton.style.display = 'inline'
     inputBox.value = ''
+    decreaseDrawThreshold()
     inputBox.focus()
   }
 
